@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF0F0;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-brand{
+    color: #000000 !important;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+.nav-link{
+    color: #000000 !important;
+}
+.nav-link:hover{
+    color: #CA3A28 !important;
+}
