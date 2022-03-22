@@ -21,6 +21,20 @@ body{
 .nav-link:hover{
     color: #CA3A28 !important;
 }
-i{
-    color: #000000;
+
+.get-meal{
+    margin: 5%;
+    text-align: center;
+}
+.input-group{
+    margin-left: 25%;
+   
+}.input-group input{
+    background-color: transparent;
+    border: #CA3A28 2px solid; 
+}
+.btn{
+    color: #FCF0F0;    
+    background-color: #CA3A28 ;
+    padding-left: 7%;
 }
