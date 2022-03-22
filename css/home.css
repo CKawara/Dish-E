@@ -31,10 +31,7 @@ body{
    
 }.input-group input{
     background-color: transparent;
-    border: #CA3A28 2px solid; 
+    border: #CA3A28 2px solid;
+    border-radius: 30px;
 }
-.btn{
-    color: #FCF0F0;    
-    background-color: #CA3A28 ;
-    padding-left: 7%;
-}
+
