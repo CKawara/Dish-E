@@ -16,7 +16,11 @@ body{
 }
 .nav-link{
     color: #000000 !important;
+    font-weight: bold;
 }
 .nav-link:hover{
     color: #CA3A28 !important;
+}
+i{
+    color: #000000;
 }
