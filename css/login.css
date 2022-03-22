@@ -3,16 +3,17 @@ body{
     background: #FCF0F0;
     display: flex;
     justify-content: center;
+
 }
-.container{
+.layout{
     
     display: flex;
     justify-items: flex-start;
     position: absolute;
     width: 30vw;
-    height: 70vh;
+    
     display: block;
-    top: 87px;
+    top: 12%;
     border-radius: 10%;
     background: #FCF0F0;
     border: 1px solid #737171;
@@ -21,13 +22,6 @@ body{
 }
 h1 {
     font-family: 'Lobster', cursive;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 80px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding-left: 5%;
     color: #CA3A28;
     display: flex;
     padding-top: 10%;
@@ -40,7 +34,7 @@ h1 {
     background: #CA3A28;
     border: #CA3A28;
 }
-.container p{
+.layout p{
     display: flex;
     padding-top: 5%;
     justify-content: center;
