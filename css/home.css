@@ -61,5 +61,6 @@ body{
     height: 75%;
     background-color: #CA3A28;
     overflow-y: scroll;
+    display: none;
 }
 
