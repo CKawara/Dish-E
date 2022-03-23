@@ -39,9 +39,38 @@ h1 {
     padding-top: 5%;
     justify-content: center;
 }
-.register{
+
+
+/* register section */
+
+
+/* register button */
+#register{
     padding-left: 1%;
     color: #CA3A28;
     background:none;
-    border:none;    
+    border:none; 
+     
 }
+/* register form */
+
+.reg{
+    display: none;
+    height: auto;
+}
+#confirm{
+    background: #CA3A28;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    border: #CA3A28;
+}
+#back{
+    background: #CA3A28;
+    border: #CA3A28;
+    margin-bottom: 8%;
+    margin-right: 30%;
+   
+}
+
+
