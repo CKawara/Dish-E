@@ -5,8 +5,22 @@ body {
     font-size: 24px;
 }
 .navbar{
-  background-color: #D4CACA
+  background-color: rgba(0, 0, 0, 0.2);
 }
+.navbar-brand{
+  color: #000000 !important;
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+}
+.nav-link{
+  color: #000000 !important;
+  font-weight: bold;
+}
+.nav-link:hover{
+  color: #CA3A28 !important;
+}
+
+
 .box{
   gap: 140px;
 }
