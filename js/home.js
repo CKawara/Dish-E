@@ -16,14 +16,14 @@
                   </div>\
                 </div>\
               </div>')
-            //   $('#button-addon2').hide();
            })
            
        }else{
            $('.not-found').show();
        }
     });
-   
+    $('.meal-results').children().remove();
+    $('.not-found').hide();
     });
   
 //Get recipe details 
