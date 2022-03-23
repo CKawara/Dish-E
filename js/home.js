@@ -16,8 +16,7 @@
                   </div>\
                 </div>\
               </div>')
-           })
-           
+           })           
        }else{
            $('.not-found').show();
        }
@@ -25,9 +24,24 @@
     $('.meal-results').children().remove();
     $('.not-found').hide();
     });
+
+    $('.close-btn').click(function(){
+        $('.details').hide();
+        $('#button-addon2').show();
+    })
   
 //Get recipe details 
 
-    $('#get-recipe').click(function(e){
+    $('.meal-results').click(function(e){
         e.preventDefault();
-    })
+        if($(e.target).hasClass('btn')){
+            let item = e.target.parentElement.parentElement;
+            fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${item.dataset.id}`)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data)
+            })
+
+        }
+        
+    });
