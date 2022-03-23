@@ -37,7 +37,7 @@ function check(){
     // check if stored data from register-form is equal to data from login form
     if(userName.value == storedName && userPw.value == storedPw) {
         alert('Success.')
-        window.open("http://mywebsite.com/home.html");
+        window.open("http://127.0.0.1:5500/pages/home.html");
     }else {
         alert('Invalid Username/ password');
     }
