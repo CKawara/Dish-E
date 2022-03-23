@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background-color: rgba(202,58,40,16%);
+    font-size: xx-large;
+    /* z-index: -3; */
+}
+.text-center{
+    padding: 10%;
+}
+.get{
+    background-color: #CA3A28;
+    color: white;
+}
+h1{
+    font-family: lobster;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+h3{
+    font-family: 'Lobster', cursive;
+    font-weight: 700;
+    font-size: xx-large;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+h2{
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+    font-size: 800px;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+
