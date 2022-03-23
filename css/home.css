@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF0F0;
+    font-family: 'Merriweather', serif;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.navbar-brand{
+    color: #000000 !important;
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+}
+.nav-link{
+    color: #000000 !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #CA3A28 !important;
+}
+
+.get-meal{
+    margin: 5%;
+    text-align: center;
+}
+.input-group{
+    margin-left: 25%;
+   
+}.input-group input{
+    background-color: transparent;
+    border: #CA3A28 2px solid;
+    border-radius: 30px;
+}
+.btn{
+    color: #FCF0F0;    
+    background-color: #CA3A28 ;
+    padding-left: 7%;
+    border-radius: 30px;
+    
+}
+.card a:hover{
+    transition: 0.6s ease;
+    transform: scale(1.1);
+}
+.card{
+    background-color: #FCF0F0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.details{
+    padding: 5%;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 75%;
+    background-color: #CA3A28;
+    overflow-y: scroll;
+    display: none;
+}
+.not-found{
+    text-align: center;
+    margin: 10%;
+    font-size: x-large;
+    color: #CA3A28;
+    display: none;
+}
+
+
