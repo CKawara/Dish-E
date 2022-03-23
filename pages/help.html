@@ -16,7 +16,7 @@
 </head>
 
 <body>
-<!-- 
+  <!-- 
   <section class="navbar  d-flex justify-content-between mb-4">
     <div>
       <h4>Dish-E</h4>
@@ -32,12 +32,13 @@
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand mx-3" href="#home">Dish-E</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link mx-5"  href="home.html">Home</a>
+            <a class="nav-link mx-5" href="home.html">Home</a>
             <a class="nav-link mx-5" href="help.html">help</a>
             <a class="nav-link mx-5" href="">account</a>
             <a class="nav-link mx-5" href="">log-out</a>
@@ -94,18 +95,19 @@
 
       <div class="newsletter">
         <p>Subscribe to our newsletter</p>
-        <div>
-          <label for=""></label>
-          <input type="text" placeholder="enter your name">
-        </div>
-        <div>
-          <label for=""></label>
-          <input type="email" placeholder="Enter your email">
-        </div>
-        <div class=" button w-50 m-auto">
-          <button class=" submit btn text-white">Subscribe</button>
-        </div>
-
+        <form action="">
+          <div>
+            <label for="name"></label>
+            <input type="text" id="name" placeholder="enter your name" required>
+          </div>
+          <div>
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class=" button w-50 m-auto">
+            <button class=" submit btn text-white">Subscribe</button>
+          </div>
+        </form>
       </div>
     </section>
   </div>
