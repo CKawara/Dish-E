@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background: #FCF0F0;
+    display: flex;
+    justify-content: center;
+
+}
+.layout{
+    
+    display: flex;
+    justify-items: flex-start;
+    position: absolute;
+    width: 30vw;
+    
+    display: block;
+    top: 12%;
+    border-radius: 10%;
+    background: #FCF0F0;
+    border: 1px solid #737171;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 4px 2px #737171;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #CA3A28;
+    display: flex;
+    padding-top: 10%;
+
+}
+#details{
+    padding-top: 10%;
+}
+#btn{
+    background: #CA3A28;
+    border: #CA3A28;
+}
+.layout p{
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+
+/* register section */
+
+
+/* register button */
+#register{
+    padding-left: 1%;
+    color: #CA3A28;
+    background:none;
+    border:none; 
+     
+}
+/* register form */
+
+.reg{
+    display: none;
+    height: auto;
+}
+#confirm{
+    background: #CA3A28;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8%;
+    border: #CA3A28;
+}
+#back{
+    background: #CA3A28;
+    border: #CA3A28;
+    margin-bottom: 8%;
+    margin-right: 30%;
+   
+}
+
+
