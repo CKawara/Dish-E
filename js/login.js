@@ -20,7 +20,7 @@ function store() {
             localStorage.setItem('pw', pw.value);
             localStorage.setItem('yname', yname.value);
             localStorage.setItem('uname', uname.value);
-            localStorage.setItem('pw', phone.value);
+            localStorage.setItem('phone', phone.value);
 
             alert("Registration Successful! please go back to login");
         }
@@ -48,24 +48,38 @@ function check(){
     // check if stored data from register-form is equal to data from login form
     if(userName.value == storedName && userPw.value == storedPw) {
         alert('Success.')
-        window.open("http://127.0.0.1:5500/pages/home.html");
+
+        window.open("http://127.0.0.1:5500/pages/home.html", "_self");
+
     }else {
-        alert('Invalid Username/ password');
+        alert('Invalid mail/password');
     }
 
     
 };
-let btn = document.getElementById("btn");
-    btn.addEventListener('click', event => {
-      check();
-    });
-let btnConfirm = document.getElementById("confirm");
-    btnConfirm.addEventListener('click', event => {
-      store();
-    });
+document.getElementById("btn").addEventListener("click", function(event){
+    event.preventDefault()
+    check();
+    clear();
+  });
+// document.getElementById("register").addEventListener("click", function(event){
+//    event.preventDefault()
+//    store();
+//    clear();
+// });
+// let btn = document.getElementById("btn");
+//     btn.addEventListener('click', event => {
+//       check();
+//     });
+// let btnConfirm = document.getElementById("confirm");
+//     btnConfirm.addEventListener('click', event => {
+//       store();
+//     });
    
 // user registration section
 $(document).ready(function(){
+
+    
     $("button#register").click(function(){
         $(".layout").hide();
         $(".reg").show();
@@ -75,4 +89,4 @@ $(document).ready(function(){
         $(".reg").hide();
     })
     
-});
+});Lo
