@@ -5,23 +5,34 @@
  // Name and Password from the register-form
 var name = document.getElementById('nme');
 var pw = document.getElementById('pw');
-var pwConfirm = document.getElementById('pwc')
+var pwConfirm = document.getElementById('pwc');
+var yname = document.getElementById('yname');
+var uname = document.getElementById('uname');
+var phone = document.getElementById('phone');
 
 
 // storing input from register-form
 function store() {
-    if (pw.value === pwc.value && pwConfirm !=null){
-        localStorage.setItem('name', nme.value);
-        localStorage.setItem('pw', pw.value);
-        alert("registration Successful please go back to login")
-    }
-    else {
-        alert("Mismatching passwords")
-    }
-     
+    
+        if (pw.value === pwc.value && pwc.value.length >1) {
+
+            localStorage.setItem('name', nme.value);
+            localStorage.setItem('pw', pw.value);
+            localStorage.setItem('yname', yname.value);
+            localStorage.setItem('uname', uname.value);
+            localStorage.setItem('pw', phone.value);
+
+            alert("Registration Successful! please go back to login");
+        }
+        else {
+            alert("Mismatching passwords");
+        };
+    };
+    
+    
 
 
-}
+
 
 // user  Authentication 
 
@@ -43,10 +54,10 @@ function check(){
     }
 
     
-}
+};
 let btn = document.getElementById("btn");
     btn.addEventListener('click', event => {
-      test();
+      check();
     });
 let btnConfirm = document.getElementById("confirm");
     btnConfirm.addEventListener('click', event => {
@@ -64,4 +75,4 @@ $(document).ready(function(){
         $(".reg").hide();
     })
     
-})
+});
