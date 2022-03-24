@@ -65,6 +65,12 @@ body{
     overflow-y: scroll;
     display: none;
 }
+.category{
+    background-color: #FCF0F0;
+    color: #CA3A28;
+    font-weight: bold;
+    
+}
 .details a{
     color: #FCF0F0;
 }

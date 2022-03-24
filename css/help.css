@@ -2,11 +2,12 @@ body {
   background-color: #fcf0f0;
  
     font-family: Merriweather;
-    font-size: 24px;
+    
 }
 .navbar{
   background-color: rgba(0, 0, 0, 0.2);
 }
+
 .navbar-brand{
   color: #000000 !important;
   font-family: 'Lobster', cursive;
@@ -20,7 +21,9 @@ body {
   color: #CA3A28 !important;
 }
 
-
+.d-flex{
+  font-size: 24px;
+}
 .box{
   gap: 140px;
 }

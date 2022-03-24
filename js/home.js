@@ -47,7 +47,7 @@
         $('.details').show();
         $('.details').append('<i id="close-btn" class="fa-solid fa-xmark fs-1 "></i>\
           <h2 class="text-center" >'+ meal.strMeal +'</h2>\
-          <p class="text-center" >'+ meal.strCategory +'</p>\
+          <p class="text-center category" >'+ meal.strCategory +'</p>\
           <div class="instructions text-center">\
             <h4>Instruction:</h4>\
           <p>'+ meal.strInstructions +'</p>\

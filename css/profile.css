@@ -22,7 +22,7 @@
 
   body{
     height: 100vh;
-    padding: 10px;
+    font-family: 'Merriweather', serif;
     background: #FCF0F0;
   }
   canvas {
