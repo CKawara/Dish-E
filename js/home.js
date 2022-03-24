@@ -39,9 +39,25 @@
             fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${item.dataset.id}`)
             .then(response => response.json())
             .then(data => {
-                console.log(data)
+                mealRecipeModal(data.meals)
             })
-
         }
-        
     });
+
+    // Create a Modal
+    function mealRecipeModal(meal){
+        meal = meal[0];
+        $('.details').show();
+        $('.details').append('<button type="button" class="close-btn"><i class="fa-solid fa-xmark"></i></button>\
+      <h2>'+ meal.strMeal +'</h2>\
+      <p>'+ meal.strCategory +'</p>\
+      <div class="instructions">\
+        <h4>Instruction:</h4>\
+      <p>'+ meal.strInstructions +'</p>\
+      <p></p>\
+      </div>\
+      <div class="recipe-link">\
+        <a href="'+ meal.strYoutube +'" target="_blank">Watch Video</a>\
+      </div>')
+      
+    }
