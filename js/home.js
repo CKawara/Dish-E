@@ -24,11 +24,6 @@
     $('.meal-results').children().remove();
     $('.not-found').hide();
     });
-
-    $('.close-btn').click(function(){
-        $('.details').hide();
-        $('#button-addon2').show();
-    })
   
 //Get recipe details 
 
@@ -44,20 +39,31 @@
         }
     });
 
+    
+
     // Create a Modal
     function mealRecipeModal(meal){
         meal = meal[0];
         $('.details').show();
-        $('.details').append('<button type="button" class="close-btn"><i class="fa-solid fa-xmark"></i></button>\
-      <h2>'+ meal.strMeal +'</h2>\
-      <p>'+ meal.strCategory +'</p>\
-      <div class="instructions">\
-        <h4>Instruction:</h4>\
-      <p>'+ meal.strInstructions +'</p>\
-      <p></p>\
-      </div>\
-      <div class="recipe-link">\
-        <a href="'+ meal.strYoutube +'" target="_blank">Watch Video</a>\
-      </div>')
+        $('.details').append('<i id="close-btn" class="fa-solid fa-xmark fs-1 "></i>\
+          <h2 class="text-center" >'+ meal.strMeal +'</h2>\
+          <p class="text-center" >'+ meal.strCategory +'</p>\
+          <div class="instructions text-center">\
+            <h4>Instruction:</h4>\
+          <p>'+ meal.strInstructions +'</p>\
+          <p></p>\
+          </div>\
+          <div class="recipe-link text-center">\
+            <a href="'+ meal.strYoutube +'" target="_blank">Watch Video</a>\
+          </div>');
+
+      $('#button-addon2').hide();
       
+      $('#close-btn').click(function(){
+        $('.details').hide();
+        $('#button-addon2').show();
+        $('.details').children().remove();
+      })
     }
+    
+    

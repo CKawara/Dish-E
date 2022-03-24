@@ -63,9 +63,11 @@ body{
     height: 75%;
     background-color: #CA3A28;
     overflow-y: scroll;
-    /* display: none; */
+    display: none;
 }
-
+.details a{
+    color: #FCF0F0;
+}
 .not-found{
     text-align: center;
     margin: 10%;
