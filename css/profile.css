@@ -39,3 +39,8 @@ img{
   padding:10px;
   /* background:#2d2d2d; */
 }
+.row{
+  border: 2px solid black;
+  padding: 10%;
+  margin: auto;
+}
