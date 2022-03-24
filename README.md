@@ -1,5 +1,8 @@
 # Dish-E
-Dish-E is web app where users can search for a meal using only one main ingredient that they have and get different recommendations. The reccomendations come with a recipe instruction and a youtube video of further explanation. The name Dish-E comes from the name "Dishi" which means eat in Kenyan Slang.
+Dish-E is web app where users can search for a meal using only one main ingredient that they have and get different recommendations. The reccomendations come with a recipe instruction and a youtube video of further explanation. 
+
+The name Dish-E comes from the name "Dishi" which means eat in Kenyan Slang.
+
 It was built using Figma for the UI design, HTML for structuring, CSS for styling, Javascrip and JQuery for functionality and the MealDB API for reccomendation.
 
 ## Demo
