@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7c6aee25da.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/home.css">
+    <title>home</title>
+</head>
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand mx-3" href="#home">Dish-E</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link mx-5"  href="/pages/home.html">Home</a>
+          <a class="nav-link mx-5" href="/pages/help.html">help</a>
+          <a class="nav-link mx-5" href="/pages/profile.html">account</a>
+          <a class="nav-link mx-5" href="/index.html">log-out</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col get-meal">   
+        <div class="intro">
+          <p><strong>Find the perfect dish for your ingredient</strong></p>
+          <p><em>The perfect meal is just a click a way</em></p>
+        </div>
+        <div class="input-group w-50 ">
+          <input type="text" class="form-control" placeholder="Enter ingredient name" id="search">
+          <button class="btn" type="button" id="button-addon2">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="container">
+    <div class="row gy-5 meal-results">
+      
+    </div>
+  </div>
+
+  <div class="not-found">
+    <p>Sorry, we did not find any meal!<i class="fa-solid fa-heart-crack"></i></p>
+  </div>
+
+  <div class="instruction-details">
+    <div class="details">
+      <button type="button" class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <h2>Meal Name</h2>
+      <p>Category name</p>
+      <div class="instructions">
+        <h4>Instruction:</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rerum excepturi quam velit ipsa quasi voluptatum facere, impedit est, aspernatur incidunt porro ipsam ducimus asperiores, quibusdam error omnis. Numquam odit deserunt nulla dolorum vitae quis accusamus tempore maiores eligendi maxime!</p>
+      </div>
+      <div class="recipe-link">
+        <a href="" target="_blank">Watch Video</a>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
