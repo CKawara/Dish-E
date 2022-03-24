@@ -7,6 +7,7 @@ The name Dish-E comes from the word "Dishi" which means eat in Kenyan Slang.
 ## Demo
 ![home screenshot](https://github.com/CKawara/Dish-E/blob/master/assets/Screenshot%20from%202022-03-24%2019-05-52.png)
 Here's the live demo https://dish-e.netlify.app/
+You can view the video demonstration [here](https://drive.google.com/file/d/1E2k4VQgeTKb9_G5IZ5NyNQB0w8VacVOc/view)
 
 
 ## Design
