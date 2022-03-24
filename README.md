@@ -3,7 +3,7 @@ A web app where users can search for a meal using only one main ingredient that 
 It was built using Figma for the UI design, HTML for structuring, CSS for styling, Javascrip and JQuery for functionality and the MealDB API for reccomendation.
 
 ## Demo
-![home screenshot]()
+![home screenshot](https://github.com/CKawara/Dish-E/blob/master/assets/Screenshot%20from%202022-03-24%2019-05-52.png)
 Here's the live demo https://dish-e.netlify.app/
 
 
