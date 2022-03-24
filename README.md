@@ -44,5 +44,5 @@ To use the site you'll need;
 - [Kevin Leitich](https://github.com/kLeitich)
 
 ## License
-MIT licence
+[MIT licence](https://github.com/CKawara/Dish-E/blob/master/LICENSE)
 
