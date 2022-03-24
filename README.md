@@ -1,5 +1,5 @@
 # Dish-E
-Dish-E is web app where users can search for a meal using only one main ingredient that they have and get different recommendations. The reccomendations come with a recipe instruction and a youtube video of further explanation. It was built using Figma for the UI design, HTML for structuring, CSS for styling, Javascrip and JQuery for functionality and the MealDB API for reccomendation.
+Dish-E is web app where users can search for a meal using only one main ingredient that they have and get different recommendations. The reccomendations come with a recipe instruction and a youtube video of further explanation. It was built using Figma for the UI design, HTML for structuring, CSS for styling, Javascript and JQuery for functionality and the MealDB API for reccomendation.
 
 The name Dish-E comes from the word "Dishi" which means eat in Kenyan Slang.
 
@@ -16,17 +16,18 @@ The site was designed using figma and can be viewed [here](https://www.figma.com
 
 ## Setup and Installation
 1. Fork the repository
-2. clone 
-3. Add and commit changes
+2. clone the repo sitory to your a local repository: git clone https://github.com/CKawara/Dish-E.git
+3. Create your branch
+4. Add and commit changes
 
 
 ## Requirements
 To use the site you'll need;
 - A device (smartphone, PC or tablet).
-- An internet conection.
+- Internet connection.
 
 
-## Technologies
+## Technologies used
 - [Figma](https://www.figma.com/)
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/) 
@@ -36,10 +37,12 @@ To use the site you'll need;
 - [MealDB](https://www.themealdb.com/api.php)
 
 
-## Contributers
+## Contributors
 - [Catherine Kawara](https://github.com/CKawara/)
 - [Eunice Njoki](https://github.com/Njokinuthia)
 - [Martin Maina](https://github.com/Martin023)
 - [Kevin Leitich](https://github.com/kLeitich)
 
+## License
+MIT licence
 
