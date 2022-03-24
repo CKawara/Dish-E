@@ -52,8 +52,9 @@ body{
     text-align: center;
 }
 .details{
+    color: #FCF0F0;
     padding: 5%;
-    text-align: center;
+    text-align: end;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -62,8 +63,9 @@ body{
     height: 75%;
     background-color: #CA3A28;
     overflow-y: scroll;
-    display: none;
+    /* display: none; */
 }
+
 .not-found{
     text-align: center;
     margin: 10%;
