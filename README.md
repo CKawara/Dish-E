@@ -16,7 +16,7 @@ The site was designed using figma and can be viewed [here](https://www.figma.com
 
 ## Setup and Installation
 1. Fork the repository
-2. clone the repo sitory to your a local repository: git clone https://github.com/CKawara/Dish-E.git
+2. clone the repository to your a local repository: git clone https://github.com/CKawara/Dish-E.git
 3. Create your branch
 4. Add and commit changes
 
