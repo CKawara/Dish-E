@@ -16,18 +16,7 @@
 </head>
 
 <body>
-  <!-- 
-  <section class="navbar  d-flex justify-content-between mb-4">
-    <div>
-      <h4>Dish-E</h4>
-    </div>
-    <div class="w-50 d-flex justify-content-evenly">
-      <a href="#">Home</a>
-      <a href="#">Help</a>
-      <a href="#">Account</a>
-      <a href="#">Log - out</a>
-    </div>
-  </section> -->
+ 
   <section>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -40,8 +29,8 @@
           <div class="navbar-nav">
             <a class="nav-link mx-5" href="home.html">Home</a>
             <a class="nav-link mx-5" href="help.html">help</a>
-            <a class="nav-link mx-5" href="">account</a>
-            <a class="nav-link mx-5" href="">log-out</a>
+            <a class="nav-link mx-5" href="#">account</a>
+            <a class="nav-link mx-5" href="#">log-out</a>
           </div>
         </div>
       </div>
@@ -54,7 +43,7 @@
         <h3 class="text-center mt-4 fw-bold">Frequently Asked Questions</h3>
         <div>
           <div>
-            <p><span>What does Dish-E mean?</span><br>Dish-e is an applicatiion designed to help users decide what to
+            <p><span>What does Dish-E mean?</span><br>Dish-e is a website designed to help users decide what to
               cook based on what they have in their
               pantry.<br>Dish-e comes from the word "dishi" which means eat in Kenyan slang.</p>
           </div>
@@ -95,25 +84,25 @@
 
       <div class="newsletter">
         <p>Subscribe to our newsletter</p>
-        <form action="">
+        <form  id="submit">
           <div>
-            <label for="name"></label>
-            <input type="text" id="name" placeholder="enter your name" required>
+            <label for="nameValue"></label>
+            <input type="text" id="nameValue" placeholder="enter your name" required>
           </div>
           <div>
-            <label for="email"></label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="emailValue"></label>
+            <input type="email" id="emailValue" placeholder="Enter your email" required>
           </div>
           <div class=" button w-50 m-auto">
-            <button class=" submit btn text-white">Subscribe</button>
+            <button type="submit" id="btn" class="submit btn text-white">Subscribe</button>
           </div>
         </form>
       </div>
     </section>
   </div>
 
-
-
+<script  src="../js/help.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </body>
 
 </html>
