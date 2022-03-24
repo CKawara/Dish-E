@@ -36,7 +36,9 @@ To use the site you'll need;
 
 
 ## Contributers
-[Catherine Kawara](https://github.com/CKawara/)
-[Eunice Njoki](https://github.com/Njokinuthia)
-[Martin Maina](https://github.com/Martin023)
-[Kevin Leitich](https://github.com/kLeitich)
+- [Catherine Kawara](https://github.com/CKawara/)
+- [Eunice Njoki](https://github.com/Njokinuthia)
+- [Martin Maina](https://github.com/Martin023)
+- [Kevin Leitich](https://github.com/kLeitich)
+
+
