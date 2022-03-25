@@ -49,7 +49,7 @@ function check(){
     if(userName.value == storedName && userPw.value == storedPw) {
         alert('Success.')
 
-        window.open("http://127.0.0.1:5500/pages/home.html", "_self");
+        window.open("pages/home.html", "_self");
 
     }else {
         alert('Invalid mail/password');
